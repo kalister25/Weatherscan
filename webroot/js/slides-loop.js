@@ -1772,10 +1772,12 @@ var mainMap
 			arrow='<span class="divider-arrow" style="font-family: Zemestro Std ">&lt;</span>',
 			radar='<span class="city radar">LOCAL RADAR</span>',
 			firstradar='<span class="city radar current">LOCAL RADAR</span>',
-			golf='<span class="city golf">GOLF</span>',
+			golf='<span class="city golf loopcomplete">GOLF</span>',
 			beach='<span class="city beach">BOAT & BEACH</span>',
 			health='<span class="city healthh loopcomplete">HEALTH</span>',
-			airport='<span class="city airport ">AIRPORTS</span>';
+			airport='<span class="city airport ">AIRPORTS</span>',
+		    	travel='<span class="city travel ">TRAVEL</span>',
+		    	garden='<span class="city garden ">GARDEN</span>';
 
 			cities += arrow + '<span class="city" data-dname="' + '0' + '">' + maincitycoords.displayname + '</span>';
 			var li = 1
